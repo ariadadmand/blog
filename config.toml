@@ -1,0 +1,5 @@
+baseURL = "http://ariadadmand.github.io/"
+languageCode = "en-us"
+title = "Aria Dadmand"
+[params]
+	description="Welcome"
