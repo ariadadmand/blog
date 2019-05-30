@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aria Dadmand</title>
+    <link>http://ariadadmand.github.io/</link>
+    <description>Recent content on Aria Dadmand</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 May 2019 01:32:35 +0100</lastBuildDate>
+    
+	<atom:link href="http://ariadadmand.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First Post - The Struggle is Real</title>
+      <link>http://ariadadmand.github.io/post/my-first-post/</link>
+      <pubDate>Thu, 30 May 2019 01:32:35 +0100</pubDate>
+      
+      <guid>http://ariadadmand.github.io/post/my-first-post/</guid>
+      <description>Hey, welcome to my blog. I struggled way more than I should have in creating this, but thanks to Google [and my roommate Jason], I guess I figured it out. Here&amp;rsquo;s a little bit about myself. I&amp;rsquo;m originally from Vancouver, Canada; my family moved to Irvine, California when I was 13. My main sport growing up was water polo but I currently enjoy playing basketball and beer die. Back home you can probably catch me by the beach munching on ahi tuna poke with a Modelo by my side.</description>
+    </item>
+    
+  </channel>
+</rss>
