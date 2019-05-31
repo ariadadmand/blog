@@ -1,7 +1,6 @@
 ---
 title: "First Post - The Struggle is Real"
 date: 2019-05-30T01:32:35+01:00
-description: "stuff"
 draft: false
 ---
 
