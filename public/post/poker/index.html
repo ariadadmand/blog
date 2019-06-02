@@ -34,7 +34,73 @@
 
 <h1 id="poker-game">Poker game</h1>
 
-<p>For this project, I created a basic high-card poker game using classes, met some issues.</p>
+<p>For this project, I created a basic high-card poker game using classes, methods and different libraries.</p>
+
+<pre><code class="language-python">class Card(object):
+
+    ranks = (2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14)
+    suits = ('S', 'D', 'H', 'C')
+</code></pre>
+
+<p>I then modified the rank of face cards in order to give them the correct score value.</p>
+
+<pre><code class="language-python">def face_card (self):
+        if self.rank == 14:
+            rank = 'A'
+        elif self.rank == 13:
+            rank = 'K'
+        elif self.rank == 12:
+            rank = 'Q'
+        elif self.rank == 11:
+            rank = 'J'
+        else:
+            rank = self.rank
+        return str(rank) + self.suit
+</code></pre>
+
+<p>I then used methods to determine the values of the hands in comparison to each other.</p>
+
+<pre><code class="language-python">def greater_equal (self, other):
+        return (self.rank &gt;= other.rank) 
+
+    def less_equal (self, other):
+        return (self.rank &lt;= other.rank)
+
+    def greater_than (self, other):
+        return (self.rank &gt; other.rank)
+
+    def less_than (self, other):
+        return (self.rank &lt; other.rank)
+
+    def same(self, other):
+        return self.rank == other.rank
+
+    def not_same (self, other):
+        return (self.rank != other.rank)
+</code></pre>
+
+<p>From there, I created a &ldquo;deck-and-deal&rdquo; mechanism to distribute cards.</p>
+
+<pre><code class="language-python">class Deck (object):
+  def __init__ (self):
+    self.deck = []
+    for suit in Card.suits:
+      for rank in Card.ranks:
+        card = Card (rank, suit)
+        self.deck.append(card)
+
+  def shuffle (self):
+    random.shuffle (self.deck)
+
+  def __len__ (self):
+    return len (self.deck)
+
+  def deal (self):
+    if len(self) == 0:
+      return None
+    else:
+      return self.deck.pop(0)
+</code></pre>
 </div>
 
 		<p class="meta">Posted on <span class="postdate">02. June 2019</span></p>

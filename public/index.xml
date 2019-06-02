@@ -17,7 +17,9 @@
       <pubDate>Sun, 02 Jun 2019 01:32:35 +0100</pubDate>
       
       <guid>http://ariadadmand.github.io/post/poker/</guid>
-      <description>Poker game For this project, I created a basic high-card poker game using classes, met some issues.</description>
+      <description>Poker game For this project, I created a basic high-card poker game using classes, methods and different libraries.
+class Card(object): ranks = (2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14) suits = (&#39;S&#39;, &#39;D&#39;, &#39;H&#39;, &#39;C&#39;)  I then modified the rank of face cards in order to give them the correct score value.
+def face_card (self): if self.rank == 14: rank = &#39;A&#39; elif self.</description>
     </item>
     
     <item>
